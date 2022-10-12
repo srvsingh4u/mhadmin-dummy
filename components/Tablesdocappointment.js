@@ -10,7 +10,7 @@ export default function Tablesdocappointment({ appointmentdata }) {
       </div>
       <div className="shadow overflow-x-scroll">
         <div className="inline-block min-w-full shadow border rounded-lg">
-          <table className="min-w-max leading-normal">
+          <table className="min-w-max leading-normal min-w-full">
             <thead>
               <tr>
                 <th className="false  py-4 border-b-2 w-36 border-gray-200 text-start text-xs font-semibold text-black uppercase tracking-wider">

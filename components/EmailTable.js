@@ -56,7 +56,7 @@ export default function Table({ activetab }) {
     <Loader />
   ) : (
     <div>
-      <table className="Table-email">
+      <table className="Table-email min-w-full">
         <thead>
           {activetab == 0 && (
             <tr>

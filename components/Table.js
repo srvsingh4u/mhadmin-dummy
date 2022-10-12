@@ -3,7 +3,7 @@ import React from "react";
 export default function Table({ data }) {
   return (
     <div>
-      <table className="TableRecords">
+      <table className="TableRecords min-w-full">
         <thead>
           <tr>
             <th className="t-image">Image</th>

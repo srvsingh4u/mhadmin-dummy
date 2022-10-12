@@ -30,8 +30,8 @@ export default function OrderlistTable() {
     <div className=" bg-white pb-4 px-4 rounded-md w-full">
       <div className="sm:pt-4">
         <div className="shadow overflow-x-scroll">
-          <div className="inline-block  shadow border rounded-lg">
-            <table className=" min-w-max leading-normal">
+          <div className="inline-block shadow border rounded-lg w-full">
+            <table className=" min-w-max leading-normal w-full">
               <thead>
                 <tr>
                   <th className="false px-5 py-4 border-b-2 border-gray-200 text-center text-xs font-semibold text-black uppercase tracking-wider">
@@ -75,7 +75,7 @@ export default function OrderlistTable() {
               <tbody>
                 {orderlist?.results.map((e, i) => {
                   return (
-                    <tr key={i} className="color-child">
+                    <tr key={i} className="color-child border-b-2 border-gray-200">
                       <Link href={`/salesDetails/${e.item_id}`}>
                         <td className=" p-3 text-sky-700  cursor-pointer">
                           <a> {e.ecom_receipt_no}</a>
