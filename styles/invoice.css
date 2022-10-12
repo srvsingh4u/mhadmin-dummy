@@ -1,0 +1,292 @@
+.invoice{
+width: 924px;
+height: 1774px;
+border: 1px solid grey;
+margin-top: 30px;
+
+}
+
+.invoice-main{
+display: flex;
+justify-content: center;
+}
+
+.i-logo{
+    width: 200px;
+    margin-left: 40px;
+    margin-top: 10px;
+    
+}
+
+.invoice-header{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid transparent;
+    height: 117px;
+    background-color:#F5F5F5;;
+
+}
+
+.header-border{
+    width: 157px;
+height: 2px;
+background: #00B7AC;
+}
+
+
+.i-no-date{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.i-number{
+    display: flex;
+  align-items: center;
+  margin-right: 28px;
+}
+.i-date{
+    display: flex;
+    align-items: center;
+}
+
+.in-num-text{
+ width: 132px;
+height: 22px;
+font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+color: #000000;
+margin-right: 10px;
+}
+
+
+
+.in-num{
+width: 81px;
+height: 19px;
+font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+color: rgba(0, 0, 0, 0.701961);
+}
+
+
+.i-date-text{width: 39px;
+    height: 22px;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    margin-right: 10px;
+
+}
+
+
+
+.i-datee{
+    width: 84px;
+height: 19px;
+font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+color: rgba(0, 0, 0, 0.701961);
+
+}
+
+
+
+.i-date{
+
+    margin-right: -71px;
+    margin-top: 10px;
+}
+
+
+.app-person-detail{
+    margin-left: 22px;
+    
+}
+
+.app-confirm h1{
+    width: 435px;
+    height: 34px;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: -0.5px;
+    text-transform: capitalize;
+    color: #034EA1;
+  
+    /* border-bottom:2px solid  #00B7AC ; */
+
+}
+.app-border{    
+width: 396px;
+height: 2px;
+background: #00B7AC;
+margin-top: -16px;
+
+}
+
+
+.app-name{
+height: 22px;
+font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+color: #000000;
+margin-top: 20px;
+
+}
+
+.app-pay{
+width: 704px;
+height: 22px;
+font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+color: #00B7AC;
+margin-top: 15px;
+
+}
+
+.payment-detail{
+    margin-left: 22px;
+    margin-top: 50px;
+}
+
+.pay-header{
+width: 100%;
+height: 34px;
+font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 500;
+font-size: 28px;
+line-height: 34px;
+letter-spacing: -0.5px;
+text-transform: capitalize;
+color: #034EA1;
+}
+
+
+
+.pay-detail{
+    margin-top: 38px;
+}
+
+.pay-box{
+    width: 831px;
+    height: 20px;
+    background: white;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.pay-right{
+width: 100%;
+height: 20px;
+font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+color: #034EA1;
+}
+
+.pay-left{
+width: 490px;
+height: 19px;
+font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: right;
+color: #000000;
+}
+
+
+.acknowledg-text{
+    width: 876px;
+height: 22px;
+font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+color: #00B7AC;
+opacity: 0.7;
+margin-top: 32px;
+}
+
+
+.footer-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+footer{
+    margin-top: 56px;
+}
+
+.e-info{
+color:  #034EA1;
+margin-top: 5px;
+cursor: pointer;
+
+}
+.footer-logo{
+    text-align: center;
+    margin-top: 34px;
+}
+
+.f-logo{
+    height: 100px;
+}
+
+.pdf{
+    display: flex;
+    justify-content: end;
+    padding: 0px;
+    margin-top: -18px;
+    margin-right: 15px;
+    height: 30px;
+   /* border-radius: 10px; */
+
+}
+
+.pdf button{
+    border-radius: 10px;
+    background-color: #034EA1 ;
+    border: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+}
+
+
+/* #in-voice{
+    width: 500px;
+} */
